@@ -5,7 +5,8 @@ import (
 	"os"
 	"fmt"
 	"syscall"
-	"php-proxy/icon"
+	
+	"github.com/CTZZG/php-proxy/icon"
 	"github.com/getlantern/systray"
 )
 
