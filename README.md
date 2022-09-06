@@ -141,6 +141,10 @@ https://koala:123456@127.0.0.1:80
 "proxy": "http://koala:free@127.0.0.1:80"
 }
 ```
+
+### Windows编译（实现程序托盘最小化）
+- 进入项目目录，执行编译go build -o xxx.exe正常编译即可（xxx为你想使用的程序名称）
+
 ### 注意事项
 - 由于我自己生成的php-proxy.key/crt私钥和公钥的公开，如果导入到系统中，可能会导致一些钓鱼网站的恶意使用;在访问一些以Php-Proxy CA签发的https网站，本机浏览器
 会直接信任这种网站,可能会造成隐私泄露;如果你用的chrome浏览器，建议php-proxy.crt证书不要导到入到系统中，在chrome快捷方式目标后面加上--ignore-certificate-errors
